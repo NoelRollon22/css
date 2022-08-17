@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework-english</title>
+    <style>
+        body{
+        height:500px;
+        border:2px solid green;}
+        main{
+            display:flex;
+            justify-content:center;
+        }
+
+        .flex-container{
+            display:flex;
+            justify-content:center;
+            align-items:space-between;
+            flex-direction:column;
+            border:2px dashed purple;
+            width:500px;
+        }
+
+        .row1, .row2{
+            display:flex;
+            justify-content:space-evenly;
+            margin:20px;
+        }
+
+        .row1 div, .row2 div{
+            border:1px solid red;
+            background:pink;
+            font-size:30px;
+            color:blue;
+            padding:30px;
+            margin:0px;
+        }
+    </style>
+</head>
+<body>
+    <h1>The flex Property</h1>
+
+        <p>Implement the CSS file ans use the flex display the four seats in two rows as the given UI.</p>
+    <main>
+        <div class="flex-container">
+            <div class="row1">
+                <div>Seat 1</div>
+                <div>Seat 2</div>
+            </div>
+            <div class="row2">
+                <div>Seat 3</div>
+                <div>Seat 4</div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
